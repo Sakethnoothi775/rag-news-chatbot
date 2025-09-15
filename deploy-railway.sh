@@ -31,8 +31,8 @@ railway new
 
 # Set environment variables
 echo "🔧 Setting environment variables..."
-railway variables set GEMINI_API_KEY="your_gemini_api_key_here"
-railway variables set QDRANT_API_KEY=""
+railway variables set GEMINI_API_KEY="AIzaSyBUwwMOSa75EtVHdBr2kOuzdRLLH45p0A4"
+railway variables set QDRANT_API_KEY="jina_b322a5add1274233ab7d3c5da3e45ea1AiNQ0Rd-snLJUe7sER_CQfBkOc07"
 railway variables set REDIS_URL="redis://redis:6379"
 railway variables set QDRANT_URL="http://qdrant:6333"
 

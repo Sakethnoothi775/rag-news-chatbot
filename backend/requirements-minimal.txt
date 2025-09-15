@@ -1,0 +1,45 @@
+# Minimal requirements for RAG News Chatbot
+# Essential libraries only
+
+# Core Framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+
+# HTTP & Requests
+httpx>=0.28.1
+requests>=2.32.4
+aiohttp>=3.10.0
+
+# Data Processing
+numpy>=1.26.4
+pandas>=2.1.4
+
+# AI/ML Core
+sentence-transformers>=2.2.2
+torch>=2.1.2
+transformers>=4.36.2
+
+# Google AI
+google-generativeai>=0.3.2
+
+# Vector Database
+qdrant-client>=1.7.0
+
+# Caching
+redis>=5.0.1
+
+# Data Serialization
+pydantic>=2.11.3
+
+# Web Scraping
+beautifulsoup4>=4.12.2
+feedparser>=6.0.11
+
+# Environment
+python-dotenv>=1.0.1
+
+# Async
+aiofiles>=23.2.1
+
+# Security
+cryptography>=41.0.7
