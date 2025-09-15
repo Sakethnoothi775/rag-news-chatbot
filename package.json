@@ -1,0 +1,29 @@
+{
+  "name": "rag-news-chatbot",
+  "version": "1.0.0",
+  "description": "RAG-powered chatbot for news websites",
+  "main": "server/index.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\" \"npm run backend\"",
+    "server": "nodemon server/index.js",
+    "client": "cd client && npm start",
+    "backend": "cd backend && python main.py",
+    "build": "cd client && npm run build",
+    "start": "node server/index.js",
+    "ingest": "cd backend && python news_ingestion.py",
+    "setup-embeddings": "cd backend && python rag_pipeline.py"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "axios": "^1.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "concurrently": "^8.2.2"
+  },
+  "keywords": ["rag", "chatbot", "news", "ai", "embeddings"],
+  "author": "Your Name",
+  "license": "MIT"
+}

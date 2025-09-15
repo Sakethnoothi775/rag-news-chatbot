@@ -1,0 +1,73 @@
+# Chat Backend API - Compatible with Existing Environment
+# Updated versions to resolve dependency conflicts
+
+# Web Framework & Server (Updated versions)
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+gunicorn==21.2.0
+starlette>=0.46.2
+
+# Real-time Communication (Updated versions)
+python-socketio==5.9.0
+websockets>=15.0.1
+aiohttp>=3.10.0
+
+# Database & Caching (Compatible versions)
+redis==5.0.1
+aioredis==2.0.1
+aiomysql==0.2.0
+PyMySQL==1.1.0
+SQLAlchemy==2.0.23
+alembic==1.12.1
+
+# Data Processing & Serialization (Updated versions)
+pydantic>=2.11.3
+orjson>=3.10.1
+python-multipart>=0.0.9
+jsonschema>=4.22.0
+anyio>=4.9.0
+
+# Authentication & Security (Updated versions)
+pyjwt>=2.9.0
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+cryptography>=41.0.7
+
+# HTTP & API Utilities (Updated versions)
+httpx>=0.28.1
+requests>=2.32.4
+python-dotenv>=1.0.1
+
+# Caching & Performance
+cachetools==5.3.2
+diskcache==5.6.3
+
+# Async & Concurrency
+aiofiles==23.2.1
+
+# Monitoring & Logging
+structlog==23.2.0
+loguru==0.7.2
+prometheus-client==0.19.0
+psutil==5.9.6
+APScheduler==3.10.4
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+faker==20.1.0
+
+# Development Tools
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+
+# AI/ML Integration (Updated versions to match existing)
+openai>=1.86.0
+
+# Environment
+setuptools>=68.0.0
+wheel>=0.41.0
+pip>=23.0.0
