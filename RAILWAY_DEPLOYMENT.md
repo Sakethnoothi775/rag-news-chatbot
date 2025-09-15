@@ -14,7 +14,7 @@ git init
 git add .
 git commit -m "Initial commit: RAG News Chatbot"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/rag-news-chatbot.git
+git remote add origin https://github.com/Sakethnoothi775/rag-news-chatbot.git
 git push -u origin main
 ```
 
